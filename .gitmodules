@@ -1,0 +1,6 @@
+[submodule "STAAR"]
+	path = STAAR
+	url = https://github.com/xihaoli/STAAR.git
+[submodule "GMMAT"]
+	path = GMMAT
+	url = https://github.com/hanchenphd/GMMAT.git
