@@ -128,7 +128,7 @@ MetaSTAAR_cond <- function(obj_MetaSTAAR_merge_cond,annotation_phred=NULL,rv_num
     num_variant <- length(obj_MetaSTAAR_merge_cond$U_cond)
     cMAC <- sum(obj_MetaSTAAR_merge_cond$info$MAC)
     num_annotation <- dim(annotation_phred)[2]+1
-    results_MetaSTAAR_O <- CCT(pvalues)
+    results_MetaSTAAR_O <- CCT(pvalues[1:(4*num_annotation)])
     results_ACAT_O_MS <- CCT(pvalues[c(1,num_annotation+1,2*num_annotation+1,3*num_annotation+1,4*num_annotation+1,5*num_annotation+1)])
     pvalues_MetaSTAAR_S_1_25 <- CCT(pvalues[1:num_annotation])
     pvalues_MetaSTAAR_S_1_1 <- CCT(pvalues[(num_annotation+1):(2*num_annotation)])
