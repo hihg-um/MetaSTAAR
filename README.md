@@ -19,6 +19,15 @@ MetaSTAAR links to R packages <a href="https://cran.r-project.org/web/packages/R
 library(devtools)
 devtools::install_github("xihaoli/MetaSTAAR",ref="main")
 ```
+### Installation with Pixi
+```
+# install pixi
+curl -fsSL https://pixi.sh/install.sh | sh
+# -- restart shell or source shrc file --
+
+# run pixi setup script
+bash install.sh
+```
 ## Usage
 Please see the <a href="docs/MetaSTAAR_manual.pdf">**MetaSTAAR** user manual</a> for detailed usage of MetaSTAAR package. The scripts used to generate results in the <a href="https://doi.org/10.1038/s41588-022-01225-6">manuscript</a> are available on <a href="https://doi.org/10.5281/zenodo.6668274">_Zenodo_</a>.
 ## Data Availability
